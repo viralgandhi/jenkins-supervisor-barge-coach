@@ -4,10 +4,7 @@
   "private": true,
   "description": "Flex Plugin to a barge-in and coach button to the monitor call canvas.",
   "scripts": {
-    "postinstall": "flex-plugin pre-script-check",
-    "lint": "eslint --ext js src/ functions/functions/",
-    "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky install"
+    "postinstall": "flex-plugin pre-script-check"
   },
   "dependencies": {
     "@emotion/core": "^10.1.1",
@@ -18,9 +15,6 @@
   },
   "devDependencies": {
     "@twilio/flex-ui": "^1",
-    "eslint": "^7.32.0",
-    "eslint-config-twilio": "^1.35.1",
-    "husky": "^7.0.1",
     "react-test-renderer": "16.5.2"
   }
 }

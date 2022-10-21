@@ -11,7 +11,7 @@ pipeline {
                             echo pwd()
                             nodejs("Node-16.18.0") {
                                 sh "twilio plugins:install @twilio-labs/plugin-serverless"
-                                // sh "npm install"
+                                sh "npm install"
                             }
                         }
                     }
